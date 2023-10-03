@@ -1,0 +1,3 @@
+TicTacToe program using the Minimax algorithm.
+The runner.py file was provided to me, my code is in tictactoe.py
+The goal of this exercise was to learn how to implement the minimax algorithm.
