@@ -1,1 +1,1 @@
-
+This folder contains all the projects related to the knowledge part of the CS 50 course
