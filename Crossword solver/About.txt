@@ -1,0 +1,3 @@
+Crossword solving algorithm part of my CS50 course.
+crossword.py was provided
+Functions implemented in generate.py: enforce_node_consistency, revise, ac3, assignment_complete, consistent, order_domain_values, selected_unassigned_variable, and backtrack
