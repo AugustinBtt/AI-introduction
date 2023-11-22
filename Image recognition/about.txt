@@ -1,0 +1,2 @@
+Roadsigns classification by AI, using TensorFlow and OpenCV.
+The computer trains on the data and gives us the accuracy % of the test.
