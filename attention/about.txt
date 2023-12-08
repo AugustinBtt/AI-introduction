@@ -1,0 +1,1 @@
+AI that predicts a masked word in a text sequence, using BERT from Google. The transformer uses 12 layers, where each layer has 12 self-attention heads, for a total of 144 self-attention heads.
