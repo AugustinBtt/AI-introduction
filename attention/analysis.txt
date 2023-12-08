@@ -1,0 +1,19 @@
+# Analysis
+
+## Layer 1, Head 9
+
+Example Sentences:
+- "Today I went for a walk in the [MASK]." Predictions included "park" "woods" and "garden" where the attention head might have focused on "walk" and "in" to predict plausible locations.
+- "He put the book on the [MASK]." The model predicts location-related nouns like "table" or "desk" it indicates that this head helps in identifying the logical end of a prepositional phrase indicating place.
+
+It appears this head might be concentrating on prepositional phrases, specifically focusing on the context that establishes a location. The attention is notably darker on tokens that precede the `[MASK]`, which suggests a role in predicting the type of nouns that could fit into the context of the sentence, potentially identifying suitable locations.
+
+
+## Layer 4, Head 6
+
+Example Sentences:
+- "He went to the [MASK] before returning home." The model's predictions included "hospital," "police," and "bathroom," which are all plausible destinations and demonstrate the head's role in understanding the context of travel or movement.
+- "She stopped by the [MASK] before coming to the meeting." The model predicts locations like "office," "store" or "hotel" it further indicates that this head helps in predicting locations that fit into the narrative of movement or a journey within a sentence.
+
+In the attention patterns of Layer 4, Head 6, there is a distinct focus from the `[MASK]` token towards the verb "went" and the prepositional phrase "to the". This suggests that this head is involved in contextualising the action with the destination or the point of the journey. Given that the `[MASK]` token is in the place of a noun that would be a location or a stop in this context, the head seems to be using the action and its prepositional context to infer a logical location where one might go before returning home.
+
